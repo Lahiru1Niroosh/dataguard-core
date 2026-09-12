@@ -67,14 +67,14 @@ def start_run() -> int:
     return run_id
 
 
-def finish_run(run_id: int, duration_seconds: float, status: str = "completed"):
+def finish_run(run_id: int, duration_seconds: float, total_rows_checked: int = None, status: str = "completed"):
     conn = get_conn()
     cur = conn.cursor()
     cur.execute("""
         UPDATE dataguard_meta.reconciliation_runs
-        SET finished_at = %s, duration_seconds = %s, status = %s
+        SET finished_at = %s, duration_seconds = %s, total_rows_checked = %s, status = %s
         WHERE run_id = %s
-    """, (datetime.now(), duration_seconds, status, run_id))
+    """, (datetime.now(), duration_seconds, total_rows_checked, status, run_id))
     conn.commit()
     cur.close()
     conn.close()
