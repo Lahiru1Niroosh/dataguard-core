@@ -1,406 +1,406 @@
 {
-  "generated_at": "2026-09-12T23:36:12.034293",
+  "generated_at": "2026-09-13T00:02:31.598324",
   "schema": "reporting_replica",
   "faults": [
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 72452
+      "transaction_id": 128054
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 25085
+      "transaction_id": 668166
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 68462
+      "transaction_id": 694721
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 35648
+      "transaction_id": 745400
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 83604
+      "transaction_id": 754326
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 80775
+      "transaction_id": 314902
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 73914
+      "transaction_id": 321417
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 78873
+      "transaction_id": 438858
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 2251
+      "transaction_id": 34270
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 24552
+      "transaction_id": 290152
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 78704
+      "transaction_id": 459465
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 51004
+      "transaction_id": 837444
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 33657
+      "transaction_id": 194820
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 55788
+      "transaction_id": 363588
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 89328
+      "transaction_id": 251031
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 31412
+      "transaction_id": 199345
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 71609
+      "transaction_id": 108414
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 17617
+      "transaction_id": 507552
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 74035
+      "transaction_id": 731411
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 10891
+      "transaction_id": 423683
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 11379
+      "transaction_id": 242683
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 98175
+      "transaction_id": 384190
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 28797
+      "transaction_id": 213788
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 82894
+      "transaction_id": 818882
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 92205
+      "transaction_id": 226800
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 99212
+      "transaction_id": 551708
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 10980
+      "transaction_id": 323849
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 95766
+      "transaction_id": 243202
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 96088
+      "transaction_id": 66457
     },
     {
       "fault_type": "MISSING_ROW",
-      "transaction_id": 50836
+      "transaction_id": 151664
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 82927
+      "transaction_id": 605282
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 32220
+      "transaction_id": 536243
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 4230
+      "transaction_id": 630186
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 72871
+      "transaction_id": 824228
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 67528
+      "transaction_id": 790682
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 98179
+      "transaction_id": 312503
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 99613
+      "transaction_id": 184954
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 93141
+      "transaction_id": 591736
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 38310
+      "transaction_id": 701154
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 11765
+      "transaction_id": 63754
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 99974
+      "transaction_id": 122861
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 42191
+      "transaction_id": 870897
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 58287
+      "transaction_id": 530846
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 75490
+      "transaction_id": 757404
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 62622
+      "transaction_id": 888868
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 26634
+      "transaction_id": 254896
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 31380
+      "transaction_id": 363029
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 98303
+      "transaction_id": 71898
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 56774
+      "transaction_id": 582111
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 62668
+      "transaction_id": 896360
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 5538
+      "transaction_id": 457957
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 98886
+      "transaction_id": 765197
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 62026
+      "transaction_id": 451603
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 40068
+      "transaction_id": 87862
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 5799
+      "transaction_id": 549583
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 87640
+      "transaction_id": 595408
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 23926
+      "transaction_id": 889178
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 45145
+      "transaction_id": 661457
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 18450
+      "transaction_id": 366651
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 61598
+      "transaction_id": 834022
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 67874
+      "transaction_id": 528728
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 35283
+      "transaction_id": 8740
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 30458
+      "transaction_id": 820857
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 38215
+      "transaction_id": 41293
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 5492
+      "transaction_id": 764402
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 50661
+      "transaction_id": 586283
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 26526
+      "transaction_id": 900367
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 37740
+      "transaction_id": 86230
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 43396
+      "transaction_id": 604640
     },
     {
       "fault_type": "VALUE_MISMATCH",
-      "transaction_id": 42921
+      "transaction_id": 426132
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 24127
+      "transaction_id": 383708
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 86313
+      "transaction_id": 181149
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 92926
+      "transaction_id": 597045
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 13095
+      "transaction_id": 3877
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 85234
+      "transaction_id": 111945
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 89266
+      "transaction_id": 997254
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 68131
+      "transaction_id": 337280
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 44030
+      "transaction_id": 418545
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 14940
+      "transaction_id": 466562
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 29095
+      "transaction_id": 391617
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 82486
+      "transaction_id": 96976
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 82795
+      "transaction_id": 877260
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 94811
+      "transaction_id": 158011
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 69825
+      "transaction_id": 798016
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 67901
+      "transaction_id": 78280
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 80274
+      "transaction_id": 995407
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 87180
+      "transaction_id": 172769
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 41425
+      "transaction_id": 243737
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 73364
+      "transaction_id": 488453
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 65867
+      "transaction_id": 733863
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 48516
+      "transaction_id": 181983
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 82964
+      "transaction_id": 505113
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 47855
+      "transaction_id": 670474
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 63879
+      "transaction_id": 604326
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 21933
+      "transaction_id": 413951
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 26612
+      "transaction_id": 532669
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 62985
+      "transaction_id": 385679
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 75801
+      "transaction_id": 103862
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 87952
+      "transaction_id": 623186
     },
     {
       "fault_type": "NULL_INJECTION",
-      "transaction_id": 26853
+      "transaction_id": 289804
     }
   ]
 }

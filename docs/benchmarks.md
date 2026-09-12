@@ -6,21 +6,21 @@ All numbers below are real measurements from an actual run on this machine.
 
 | Metric | Naive (SQL EXCEPT) | Hierarchical |
 |---|---|---|
-| Duration (s) | 0.351 | 0.14 |
-| Rows/sec | 285155.7 | 715421.9 |
+| Duration (s) | 0.32 | 0.137 |
+| Rows/sec | 312889.8 | 727504.6 |
 | DB queries | 2 | (multi-stage, see pipeline) |
 | Discrepancies found | 0 | 0 |
 
-**Speedup: 2.51x**
+**Speedup: 2.33x**
 
 ## 1,000,000 transactions
 
 | Metric | Naive (SQL EXCEPT) | Hierarchical |
 |---|---|---|
-| Duration (s) | 8.653 | 1.428 |
-| Rows/sec | 115573.4 | 700045.9 |
+| Duration (s) | 8.409 | 1.307 |
+| Rows/sec | 118916.2 | 765218.3 |
 | DB queries | 2 | (multi-stage, see pipeline) |
 | Discrepancies found | 0 | 0 |
 
-**Speedup: 6.06x**
+**Speedup: 6.43x**
 
