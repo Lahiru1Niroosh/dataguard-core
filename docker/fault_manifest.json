@@ -1,0 +1,326 @@
+{
+  "generated_at": "2026-09-12T22:39:48.652343",
+  "schema": "reporting_replica",
+  "faults": [
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 94646
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 28344
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 83091
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 2284
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 73482
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 55494
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 46627
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 24662
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 68723
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 60615
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 25218
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 6213
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 93915
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 46630
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 86344
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 79016
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 51704
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 91604
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 73495
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 17906
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 85809
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 41421
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 61773
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 5960
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 45413
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 38876
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 30651
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 45327
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 48818
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 8930
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 47509
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 10661
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 46600
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 78973
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 30539
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 18311
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 33907
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 72681
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 23908
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 753
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 92182
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 5078
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 46207
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 6217
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 96038
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 44231
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 70532
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 7443
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 52163
+    },
+    {
+      "fault_type": "MISSING_ROW",
+      "transaction_id": 72122
+    },
+    {
+      "fault_type": "DUPLICATE_ROW",
+      "transaction_id": 43900
+    },
+    {
+      "fault_type": "DUPLICATE_ROW",
+      "transaction_id": 10598
+    },
+    {
+      "fault_type": "DUPLICATE_ROW",
+      "transaction_id": 66787
+    },
+    {
+      "fault_type": "DUPLICATE_ROW",
+      "transaction_id": 54920
+    },
+    {
+      "fault_type": "DUPLICATE_ROW",
+      "transaction_id": 66552
+    },
+    {
+      "fault_type": "DUPLICATE_ROW",
+      "transaction_id": 66749
+    },
+    {
+      "fault_type": "DUPLICATE_ROW",
+      "transaction_id": 66038
+    },
+    {
+      "fault_type": "DUPLICATE_ROW",
+      "transaction_id": 74223
+    },
+    {
+      "fault_type": "DUPLICATE_ROW",
+      "transaction_id": 94238
+    },
+    {
+      "fault_type": "DUPLICATE_ROW",
+      "transaction_id": 35311
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 69420
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 11575
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 99135
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 7182
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 68417
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 96022
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 71463
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 92795
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 25254
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 16669
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 37471
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 30512
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 47934
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 63401
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 20714
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 48072
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 84426
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 47677
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 5654
+    },
+    {
+      "fault_type": "VALUE_MISMATCH",
+      "transaction_id": 60899
+    }
+  ]
+}
