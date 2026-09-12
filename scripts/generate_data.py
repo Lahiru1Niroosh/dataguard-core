@@ -33,8 +33,12 @@ def get_conn():
 
 
 def create_tables(cur, schema):
+    cur.execute(f"DROP TABLE IF EXISTS {schema}.transactions CASCADE;")
+    cur.execute(f"DROP TABLE IF EXISTS {schema}.ledger_balances CASCADE;")
+    cur.execute(f"DROP TABLE IF EXISTS {schema}.accounts CASCADE;")
+
     cur.execute(f"""
-        CREATE TABLE IF NOT EXISTS {schema}.accounts (
+        CREATE TABLE {schema}.accounts (
             account_id BIGINT PRIMARY KEY,
             customer_name TEXT,
             country TEXT,
@@ -44,7 +48,7 @@ def create_tables(cur, schema):
         );
     """)
     cur.execute(f"""
-        CREATE TABLE IF NOT EXISTS {schema}.transactions (
+        CREATE TABLE {schema}.transactions (
             transaction_id BIGINT PRIMARY KEY,
             account_id BIGINT,
             amount NUMERIC(14,2),
@@ -55,19 +59,12 @@ def create_tables(cur, schema):
         );
     """)
     cur.execute(f"""
-        CREATE TABLE IF NOT EXISTS {schema}.ledger_balances (
+        CREATE TABLE {schema}.ledger_balances (
             account_id BIGINT PRIMARY KEY,
             balance NUMERIC(14,2),
             as_of TIMESTAMP
         );
     """)
-
-
-def clear_tables(cur, schema):
-    cur.execute(
-        f"TRUNCATE TABLE {schema}.accounts, {schema}.transactions, "
-        f"{schema}.ledger_balances"
-    )
 
 
 def generate_accounts(n):
@@ -132,8 +129,6 @@ def main():
     print("Creating tables in core_banking and reporting_replica...")
     create_tables(cur, "core_banking")
     create_tables(cur, "reporting_replica")
-    clear_tables(cur, "core_banking")
-    clear_tables(cur, "reporting_replica")
 
     print(f"Generating {args.accounts} accounts...")
     accounts = generate_accounts(args.accounts)
