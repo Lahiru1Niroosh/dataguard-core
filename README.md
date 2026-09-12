@@ -62,6 +62,13 @@ pytest -v
 - **Performance:** 2.3x–6.4x faster than a naive SQL `EXCEPT`-based full comparison,
   scaling with dataset size (100K → 1M rows). See `docs/benchmarks.md`.
 
+## Known limitations
+
+See [docs/algorithm.md](docs/algorithm.md#known-limitations) for an honest accounting
+of current edge cases — notably, duplicate-row detection is heuristic (matches on
+account/amount/timestamp) and `PARTITION_ANOMALY` (volume-vs-history) is defined in
+the fault catalogue but not yet implemented as a distinct check.
+
 ## Companion project
 
 [DataGuard Insights](../dataguard-insights) is a Streamlit BI dashboard built on top
