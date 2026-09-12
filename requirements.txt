@@ -5,3 +5,4 @@ xxhash
 pydantic
 pytest
 python-dotenv
+psutil
