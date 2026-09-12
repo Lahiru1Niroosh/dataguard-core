@@ -1,0 +1,3 @@
+CREATE SCHEMA IF NOT EXISTS core_banking;
+CREATE SCHEMA IF NOT EXISTS reporting_replica;
+CREATE SCHEMA IF NOT EXISTS dataguard_meta;
