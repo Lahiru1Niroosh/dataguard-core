@@ -63,6 +63,13 @@ def create_tables(cur, schema):
     """)
 
 
+def clear_tables(cur, schema):
+    cur.execute(
+        f"TRUNCATE TABLE {schema}.accounts, {schema}.transactions, "
+        f"{schema}.ledger_balances"
+    )
+
+
 def generate_accounts(n):
     accounts = []
     start_date = datetime(2023, 1, 1)
@@ -125,6 +132,8 @@ def main():
     print("Creating tables in core_banking and reporting_replica...")
     create_tables(cur, "core_banking")
     create_tables(cur, "reporting_replica")
+    clear_tables(cur, "core_banking")
+    clear_tables(cur, "reporting_replica")
 
     print(f"Generating {args.accounts} accounts...")
     accounts = generate_accounts(args.accounts)
