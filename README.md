@@ -14,6 +14,51 @@ drifted from its source of truth.
 See [docs/architecture.md](docs/architecture.md) for the full design, including the
 6-level reconciliation hierarchy (schema → count → aggregate → partition → hash → row).
 
+## System overview
+
+```mermaid
+flowchart LR
+  subgraph Source
+    CB[(core_banking)]
+  end
+  subgraph Target
+    RR[(reporting_replica)]
+  end
+  subgraph Meta
+    DM[(dataguard_meta)]
+  end
+
+  CB -- "compared against" --> ENGINE
+  RR -- "compared against" --> ENGINE
+  ENGINE[DataGuard Core<br/>Reconciliation Engine] -- "persists runs +<br/>discrepancies" --> DM
+  DM -- "read-only" --> INSIGHTS[DataGuard Insights<br/>BI Dashboard]
+```
+
+## Reconciliation pipeline
+
+```mermaid
+flowchart TD
+  A[Schema Comparison] -->|clean| END1[No drift]
+  A -->|drift found| A1[SCHEMA_DRIFT / TYPE_DRIFT]
+  A --> B[Row Count & Null Comparison]
+  B -->|clean| END2[No drift]
+  B --> C[Aggregate Comparison<br/>SUM/AVG/MIN/MAX]
+  C -->|clean| END3[No drift]
+  C --> D[Partition-Level Comparison<br/>per-day count/sum/nulls]
+  D -->|all partitions clean| END4[Pipeline stops here —<br/>cheapest possible exit]
+  D -->|suspicious partition found| E[Hash Fingerprinting<br/>xxhash per row]
+  E --> F[Row-Level Diff &<br/>Fault Classification]
+  F --> G[(Persisted to<br/>dataguard_meta)]
+
+  style D fill:#2E5EAA,color:#fff
+  style E fill:#C0392B,color:#fff
+  style F fill:#C0392B,color:#fff
+```
+
+*Only partitions flagged as suspicious at the Partition-Level step proceed to the
+expensive Hash Fingerprinting and Row-Level Diff steps — this gating is what makes
+the engine 2.3x–6.4x faster than a naive full comparison (see Benchmarks below).*
+
 ## Reconciliation hierarchy
 
 1. **Schema** — tables, columns, types, nullability
